@@ -90,6 +90,11 @@ button:focus{
   height: 450px;
   width: 100%;
 }
+#palatte{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+	height: 100%;
+}
   </style>
 
 
@@ -105,10 +110,10 @@ button:focus{
         
 	?>
 
-  <table border="1px" width="100%" height="610px">
+  <table border="0px" width="100%" height="610px">
  	<tr>
  <td width="22%" style="background-color: white;vertical-align: top;">
-              <br>  
+       <div id="palatte">      <br>  
 	<h1 align="center" class="text-danger">TIME LEFT : </h1>
 	<h1 align="center" class="text-danger" id="timer">00:00 </h1>
 	<hr><br>
@@ -122,7 +127,8 @@ button:focus{
 		
 		
 	</div>
- 			
+	<br><br>
+ 	</div>		
  </td>
  <td style="vertical-align: top;">
  	
